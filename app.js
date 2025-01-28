@@ -3,7 +3,7 @@ const Discord = require('discord.js-selfbot-v13');
 const Authorization = process.env.Authorization;
 
 const SOURCE_CHANNEL_ID = "111996776255981572";  // Source channel ID
-const TARGET_CHANNEL_ID = "1279574748837449759";  // Target channel ID
+const TARGET_CHANNEL_ID = "111996776255981572";  // Target channel ID
 const MESSAGE_ID = "1333849956997660733"; // The specific message ID to forward
 
 const client = new Discord.Client({ checkUpdate: false });
